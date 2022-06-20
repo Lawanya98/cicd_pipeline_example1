@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR server
+WORKDIR /usr/src/app
 
 RUN npm install
 
