@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /server
+WORKDIR server
 
 RUN npm install
 
