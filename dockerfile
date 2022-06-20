@@ -1,10 +1,10 @@
 FROM node:latest
 
-WORKDIR /usr/src/app
+WORKDIR project
 
 RUN npm install
 
 COPY . .
 
 EXPOSE 3000
-CMD [ "node", "index.js" ]
+CMD [ "node", "server.js" ]
